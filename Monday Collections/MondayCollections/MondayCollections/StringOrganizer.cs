@@ -6,7 +6,7 @@ namespace MondayCollections
 {
     class StringOrganizer
     {
-        static void Main(string[] args)
+        public static void StringOrg()
         {
             ArrayList myArrayList = new ArrayList();
 

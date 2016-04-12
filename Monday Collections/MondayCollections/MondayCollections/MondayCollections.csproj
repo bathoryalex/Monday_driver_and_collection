@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IntegersReversed.cs" />
+    <Compile Include="ProgramStarter.cs" />
     <Compile Include="StringOrganizer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WrittenNumbersToDigits.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
