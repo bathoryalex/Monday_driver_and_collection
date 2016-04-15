@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -64,6 +65,11 @@ namespace MondayDrive
 
                 listBox.DataSource = entriesList;
             }
+        }
+
+        private void openButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
