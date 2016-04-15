@@ -69,7 +69,18 @@ namespace MondayDrive
 
         private void openButton_Click(object sender, EventArgs e)
         {
+            var selectedItemInListBox = (string)listBox.SelectedItem;
+            var attribute = File.GetAttributes(selectedItemInListBox);
+            if (attribute == FileAttributes.Directory)
+            {
+                pathTextBox.Text = (string)listBox.SelectedItem;
+            }
+        }
 
+        private void deleteButton_Click(object sender, EventArgs e)
+        {
+            File.Delete(@"path");
+            MessageBox.Show("This function is not working yet, sorry! :(");
         }
     }
 }
